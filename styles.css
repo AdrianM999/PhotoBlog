@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     background-color: #f1ede6;
+
 }
 
 
@@ -226,4 +227,142 @@ main {
     z-index: 1;
     text-align: center;
     width: 80vh;
+    }
+
+    .section3 {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 20;
+        grid-row-end: 31;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 0.25rem;
+        margin-top: 3rem;
+    }
+
+    .photo1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(./images/IMG-8147.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .photo2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(./images/IMG-8151.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .photo3 {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        background-image: url(./images/2B7BC7AB-DAAE-49E8-A77F-4AA3A4707F1A.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo4 {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(./images/IMG-4843.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .photo5 {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        background-image: url(./images/IMG-8876.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo6 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-image: url(./images/IMG-8519.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo7 {
+        grid-column-start: 5;
+        grid-column-end: 8;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-image: url(./images/IMG-8138.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .photo8 {
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url(./images/IMG-8068.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo9 {
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url(./images/IMG-5952.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo10 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(./images/IMG-7997.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo11 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url(./images/IMG-8220.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .photo12 {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-image: url(./images/IMG-8915.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo13 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 6;
+        background-image: url(./images/IMG-8914.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
